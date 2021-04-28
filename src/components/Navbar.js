@@ -31,7 +31,8 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}
+          style={{ textDecoration: 'none' }}>
             All Ready
             <i class="fas fa-tshirt"></i>
             
@@ -45,7 +46,8 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             {/* creates link to pages, the click makes the mobile menu close */}
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}
+              style={{ textDecoration: 'none' }}>
                 Home
               </Link>
             </li>
@@ -53,6 +55,7 @@ function Navbar() {
               <Link
                 to='/services'
                 className='nav-links'
+                style={{ textDecoration: 'none' }}
                 onClick={closeMobileMenu}
               >
                 Services
@@ -62,6 +65,7 @@ function Navbar() {
               <Link
                 to='/products'
                 className='nav-links'
+                style={{ textDecoration: 'none' }}
                 onClick={closeMobileMenu}
               >
                 Products

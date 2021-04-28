@@ -30,6 +30,7 @@
   
   .products {
     background-image: url('./assets/fa5820fa2147d2a41e1089a84e92ee4c.jpeg');
+    background-size: cover;
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -42,7 +43,7 @@
   }
   
   .sign-up {
-    background-image: url('/src/assets//flat-lay-clothing-collage-banner-2.jpeg');
+    background-image: url('/src/assets/mnz-ToLMORRb97Q-unsplash.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,4 +52,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-size: stretch;
   }

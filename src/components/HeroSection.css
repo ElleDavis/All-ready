@@ -1,6 +1,7 @@
 
   .hero-container {
     background-image: url('../images/img-13.jpg');
+    background-size: stretch;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -18,7 +19,7 @@
       position: fixed;
       z-index: -1;
   }
-
+  
   
   .hero-container > h1 {
     color: #fff;
