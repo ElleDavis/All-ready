@@ -23,9 +23,9 @@ function Cards() {
             />
             <CardItem
               // src='./images/img-19.jpg'
-              text='This Seasons '
-              label='Spring'
-              path='/products'
+              text='Sign-In'
+              label='Sign-In'
+              path='/Sign-In'
             />
             <CardItem
               // src='./images/img-16.jpg'

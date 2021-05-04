@@ -1,8 +1,9 @@
 
 import React from "react";
 import "../App.css";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import "./HeroSection.css";
+import Button from "react-bootstrap/Button";
 
 function handleClick(e) {
   e.preventDefault();
@@ -50,17 +51,21 @@ class HeroSection extends React.Component {
       <div className="hero-container">
         {/* shows whatever image the state is in */}
          <img src={this.state.images[this.state.currentImage]}alt='images'/>
-        <h1>Love Your Outfit</h1>
-        <p>Let's Get Ready!</p>
+        <h1> Let's Get Ready!</h1>
+        <p>Love Your Outfit</p>
         
         <div className="hero-btns">
-          <Button
+            <>
+            <Button className="btns" buttonStyle="btn--outline"
+            buttonSize="btn--large" variant="primary">Sign-in</Button>{''}
+            </>
+          {/* <Button
             className="btns"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
           >
             Join Us!
-          </Button>
+          </Button> */}
           
         </div>
       </div>

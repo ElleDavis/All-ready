@@ -32,7 +32,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}
-          style={{ textDecoration: 'none' }}>
+          >
             All Ready
             <i class="fas fa-tshirt"></i>
             
@@ -63,12 +63,12 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/sign-in'
                 className='nav-links'
                 style={{ textDecoration: 'none' }}
                 onClick={closeMobileMenu}
               >
-                Products
+                SignIn
               </Link>
             </li>
 

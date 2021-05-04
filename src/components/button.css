@@ -8,7 +8,7 @@
   
   .home,
   .services,
-  .products,
+  .sign-in,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -29,7 +29,7 @@
     align-items: center;
   }
   
-  .products {
+  .sign-in {
     /* background-image: url('../assets/flat-lay-clothing-collage-banner-2.jpeg'); */
     background-position: center;
     background-size: fill;
@@ -46,7 +46,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff; 
+    color:#fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
