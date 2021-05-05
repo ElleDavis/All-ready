@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/All-ready/static/css/main.cb679e66.chunk.css",
+    "main.js": "/All-ready/static/js/main.7720b7c4.chunk.js",
+    "main.js.map": "/All-ready/static/js/main.7720b7c4.chunk.js.map",
+    "runtime-main.js": "/All-ready/static/js/runtime-main.7eb4569b.js",
+    "runtime-main.js.map": "/All-ready/static/js/runtime-main.7eb4569b.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/All-ready/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9c9bb5eb.chunk.js": "/All-ready/static/js/2.9c9bb5eb.chunk.js",
+    "static/js/2.9c9bb5eb.chunk.js.map": "/All-ready/static/js/2.9c9bb5eb.chunk.js.map",
+    "index.html": "/All-ready/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/All-ready/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.cb679e66.chunk.css.map": "/All-ready/static/css/main.cb679e66.chunk.css.map",
+    "static/js/2.9c9bb5eb.chunk.js.LICENSE.txt": "/All-ready/static/js/2.9c9bb5eb.chunk.js.LICENSE.txt",
+    "static/media/HeroSection.css": "/All-ready/static/media/img-13.e69c2e33.jpg",
+    "static/media/App.css": "/All-ready/static/media/mnz-ToLMORRb97Q-unsplash.486a2b69.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7eb4569b.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9c9bb5eb.chunk.js",
+    "static/css/main.cb679e66.chunk.css",
+    "static/js/main.7720b7c4.chunk.js"
+  ]
+}
