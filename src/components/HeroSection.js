@@ -55,10 +55,10 @@ class HeroSection extends React.Component {
         <p>Love Your Outfit</p>
         
         <div className="hero-btns">
-            <>
+            {/* <>
             <Button className="btns" buttonStyle="btn--outline"
             buttonSize="btn--large" variant="primary">Sign-in</Button>{''}
-            </>
+            </> */}
           {/* <Button
             className="btns"
             buttonStyle="btn--outline"

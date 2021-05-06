@@ -17,8 +17,10 @@ function SignIn() {
   function SigninUser(e){
     console.log(e.target.email.value)
     console.log(e.target.password.value)
- 
     e.preventDefault()
+    
+
+
     fetch('http://localhost:3001/users', {
     method: 'POST', 
     headers: {
@@ -81,7 +83,7 @@ function SignIn() {
       </>
     </div>
     )
-}
+  }
 }
 
 export default SignIn

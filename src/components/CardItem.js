@@ -10,7 +10,8 @@ function CardItem(props) {
             <img
               className='cards__item__img'
               alt="select a style"
-              src={props.src}
+              // src={props.src}
+              src={'https://images.unsplash.com/photo-1604176354204-9268737828e4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGFuZ2luZyUyMGNsb3RoZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'}
             />
           </figure>
           <div className='cards__item__info'>
